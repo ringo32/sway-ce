@@ -1,0 +1,60 @@
+/* ::root{ */
+/*     --accent: #5291e2; */
+/*     --dark: #383C4A; */
+/*     --light: #7C818C; */
+/*     --ld: #404552; */
+/*     --dl: #4B5162 */
+/*     --white: white; */
+/* } */
+
+*{
+    font-family: monospace;
+}
+
+window {
+    background-color: #926ee4;
+    border-radius: 10px;
+}
+
+#input {
+    margin: 5px;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 3px solid grey;
+    background-color: #2a2e32;
+    color: white;
+}
+
+#inner-box {
+    background-color: #2a2e32;
+    border-radius: 10px;
+}
+
+#outer-box {
+    margin: 2px;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    background-color: #2a2e32;
+}
+
+#scroll {
+}
+
+#text {
+padding: 5px;
+color: white;
+}
+
+#entry:nth-child(even){
+    background-color: #2a2e32;
+    border-radius: 1px;
+}
+
+#entry:selected {
+    background-color: #926ee4;
+    border-radius: 10px;
+}
+
+#text:selected {
+}
