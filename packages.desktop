@@ -39,6 +39,9 @@ xfce4-terminal
 
 # browser
 firefox
-
+qt5ct
+qt6ct
+breeze-gtk
+breeze-icons
 # dM
 greetd-tuigreet
